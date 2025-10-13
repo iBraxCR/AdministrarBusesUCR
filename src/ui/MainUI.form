@@ -95,7 +95,7 @@
         <Component class="javax.swing.JButton" name="btnGestionConductores">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Times New Roman" size="14" style="2"/>
+              <Font name="Times New Roman" size="14" style="3"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Gesti&#xf3;n conductores"/>
           </Properties>
@@ -106,7 +106,7 @@
         <Component class="javax.swing.JButton" name="btnGestionAutobuses">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Times New Roman" size="14" style="2"/>
+              <Font name="Times New Roman" size="14" style="3"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Gestion Autobuses"/>
           </Properties>
@@ -128,7 +128,7 @@
         <Component class="javax.swing.JButton" name="btnGestionRutas">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Times New Roman" size="14" style="2"/>
+              <Font name="Times New Roman" size="14" style="3"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Gestion Rutas"/>
           </Properties>
@@ -139,7 +139,7 @@
         <Component class="javax.swing.JButton" name="btnFacturacion">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Times New Roman" size="14" style="2"/>
+              <Font name="Times New Roman" size="14" style="3"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Facturacion"/>
           </Properties>
@@ -150,7 +150,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Times New Roman" size="36" style="2"/>
+              <Font name="Times New Roman" size="36" style="3"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -165,7 +165,7 @@
               <Color blue="66" green="66" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Times New Roman" size="14" style="2"/>
+              <Font name="Times New Roman" size="14" style="3"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Salir"/>
           </Properties>

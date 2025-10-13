@@ -40,7 +40,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(51, 204, 255));
         jPanel1.setFocusTraversalPolicyProvider(true);
 
-        btnGestionConductores.setFont(new java.awt.Font("Times New Roman", 2, 14)); // NOI18N
+        btnGestionConductores.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         btnGestionConductores.setText("Gestión conductores");
         btnGestionConductores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -48,7 +48,7 @@ public class MainUI extends javax.swing.JFrame {
             }
         });
 
-        btnGestionAutobuses.setFont(new java.awt.Font("Times New Roman", 2, 14)); // NOI18N
+        btnGestionAutobuses.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         btnGestionAutobuses.setText("Gestion Autobuses");
         btnGestionAutobuses.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,7 +64,7 @@ public class MainUI extends javax.swing.JFrame {
             }
         });
 
-        btnGestionRutas.setFont(new java.awt.Font("Times New Roman", 2, 14)); // NOI18N
+        btnGestionRutas.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         btnGestionRutas.setText("Gestion Rutas");
         btnGestionRutas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,7 +72,7 @@ public class MainUI extends javax.swing.JFrame {
             }
         });
 
-        btnFacturacion.setFont(new java.awt.Font("Times New Roman", 2, 14)); // NOI18N
+        btnFacturacion.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         btnFacturacion.setText("Facturacion");
         btnFacturacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,13 +80,13 @@ public class MainUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Times New Roman", 2, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Caribeños");
 
         btnSalir.setBackground(new java.awt.Color(255, 102, 102));
-        btnSalir.setFont(new java.awt.Font("Times New Roman", 2, 14)); // NOI18N
+        btnSalir.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         btnSalir.setText("Salir");
         btnSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
