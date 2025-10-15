@@ -6,11 +6,11 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CrudBUS {
+public class BusDAO {
 
     private Connection conn;
 
-    public CrudBUS() {
+    public BusDAO() {
         conn = Conexion.conectar(); 
     }
 
