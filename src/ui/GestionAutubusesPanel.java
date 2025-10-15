@@ -43,6 +43,7 @@ public class GestionAutubusesPanel extends javax.swing.JPanel {
         btnModificarBuses = new javax.swing.JButton();
         btnEliminarBus = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
+        btnAsignarBus = new javax.swing.JButton();
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -142,6 +143,8 @@ public class GestionAutubusesPanel extends javax.swing.JPanel {
 
         jButton5.setText("Mantenimiento");
 
+        btnAsignarBus.setText("Asignar");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -157,13 +160,15 @@ public class GestionAutubusesPanel extends javax.swing.JPanel {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(34, 34, 34)
                 .addComponent(btnAgregarBuses, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(144, 144, 144)
+                .addGap(69, 69, 69)
                 .addComponent(btnModificarBuses, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(214, 214, 214)
+                .addGap(104, 104, 104)
                 .addComponent(btnEliminarBus, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(91, 91, 91)
                 .addComponent(jButton5)
-                .addContainerGap())
+                .addGap(85, 85, 85)
+                .addComponent(btnAsignarBus)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -177,7 +182,8 @@ public class GestionAutubusesPanel extends javax.swing.JPanel {
                     .addComponent(btnAgregarBuses)
                     .addComponent(btnModificarBuses)
                     .addComponent(btnEliminarBus)
-                    .addComponent(jButton5))
+                    .addComponent(jButton5)
+                    .addComponent(btnAsignarBus))
                 .addContainerGap())
         );
 
@@ -207,6 +213,7 @@ public class GestionAutubusesPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAgregarBuses;
     private javax.swing.JButton btnAgregarRuta;
+    private javax.swing.JButton btnAsignarBus;
     private javax.swing.JButton btnEliminarBus;
     private javax.swing.JButton btnEliminarRutas;
     private javax.swing.JButton btnModificar;
