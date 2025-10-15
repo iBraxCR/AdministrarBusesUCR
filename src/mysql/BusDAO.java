@@ -1,7 +1,7 @@
-package Controller;
+package mysql;
 
-import Model.Buses;
-import Model.ConexionBDD.Conexion;
+import model.Buses;
+import mysql.ConexionBD.Conexion;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
